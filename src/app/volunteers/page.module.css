@@ -1,0 +1,9 @@
+.normal-text {
+  font-family: 'Noto Sans', Roboto, Hlevetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bold-header {
+  font-weight: 700;
+}

@@ -1,95 +1,97 @@
+'use client'
 import Image from 'next/image'
 import styles from './page.module.css'
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
+import {
+    MDBCarousel,
+    MDBCarouselItem,
+    MDBContainer,
+    MDBRow,
+    MDBCol,
+} from '@/lib/mdb-react-ui-kit';
+
+import pythonLogo from '../../public/PythonLogo.png'
+import scratchLogo from '../../public/ScratchLogo.png'
+import unityLogo from '../../public/UnityLogo.png'
+import zoe from '../../public/ZoeThevenot_square.jpg'
+import rishan from '../../public/RishanThangaraj_square.jpg'
+
+const width_50 = {width: "50%"};
+const width_30 = {width: "30%"};
+const height_auto = {height:"auto"}
+
+
+function Home() {
+    return (
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            <MDBCarousel showControls>
+                <MDBCarouselItem
+                    className='w-100 d-block'
+                    itemId={1}
+                    src='https://mdbootstrap.com/img/Photos/Slides/img%20(19).jpg'
+                    alt='...'
+                >
+                    <h1>Learn</h1>
+                </MDBCarouselItem>
+                <MDBCarouselItem
+                    className='w-100 d-block'
+                    itemId={2}
+                    src='https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg'
+                    alt='...'
+                >
+                    <h1>Create</h1>
+                </MDBCarouselItem>
+
+                <MDBCarouselItem
+                    className='w-100 d-block'
+                    itemId={3}
+                    src='https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg'
+                    alt='...'
+                >
+                    <h1>Explore</h1>
+                </MDBCarouselItem>
+            </MDBCarousel>
+            <MDBContainer>
+                <MDBRow className="pt-4">
+                    <h1 className="text-center">Teaching Kids Programming</h1>
+                </MDBRow>
+                <MDBRow>
+
+                    <MDBContainer className="pt-4 ps-2 pe-2" breakpoint="md">
+                        <MDBRow className='gy-5 pb-4'>
+                            <MDBCol md="4" className="gy-5 text-center">
+                                <Image src={scratchLogo} alt="Scratch Logo" style={{...width_50, ...height_auto}} />
+                            </MDBCol>
+                            <MDBCol md="4" className="gy-5 text-center">
+                                <Image src={unityLogo} alt="Unity Logo" style={{...width_50, ...height_auto}}/>
+                            </MDBCol>
+                            <MDBCol md="4" className="gy-5 text-center">
+                                <Image src={pythonLogo} alt="Python Logo" style={{...width_50, ...height_auto}} />
+                            </MDBCol>
+                        </MDBRow>
+                    </MDBContainer>
+
+                </MDBRow>
+            </MDBContainer>
+            <MDBContainer className="maxwidth100 w-100 m-0 px-auto pt-5 ps-5 pb-5 pe-0 background-hp" breakpoint='xxl' style={{maxHeight: "40vh"}}>
+                <MDBRow>
+                    <MDBCol size="6" className="">
+                        <h1>Meet the Team</h1>
+                        <p className="homepage pt-4"> Our volunteer team composed of our co-founders and coding tutors will help each student individually, tailoring the lessons to them. All of the volunteers have a wide range of practice in various coding languages which provide unique lessons. We&apos;re excited to share our programming knowledge and help you learn!
+
+                        </p>
+                    </MDBCol>
+                    <MDBCol size="6" className="pb-0 m-0">
+                                <div className="pt-2 text-center">
+                                    <Image src={rishan} className="pe-3" style={{...width_30, ...height_auto}}/>
+                                    <Image src={zoe} className="pe-3" style={{...width_30, ...height_auto}}/>
+                                </div>
+                    </MDBCol>
+                </MDBRow>
+            </MDBContainer>
         </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    );
 }
+
+export default Home;
