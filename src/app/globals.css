@@ -1,10 +1,31 @@
-html {
-  font-size: 16px
+html,body {
+  font-size: 16px;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-right: 0px !important;
+}
+
+@media (min-width: 200px) {
+body.modal-open {
+  overflow:hidden;
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+}
+
+@media (min-width: 1024px) {
+body.modal-open {
+  overflow:hidden;
+  position:relative;
+  width:100%;
+  height:100%;
+}
 }
 
 p, li {
   margin: 0;
-  font-family: var("--font-noto-sans"), Roboto, Hlevetica, Arial, sans-serif;
+  font-family: var("--font-noto-sans"), Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,7 +45,7 @@ h6 {
 }
 
 .background-hp {
-  background-color: #AFC0FF;
+  background-color: #FFFFFF;
 }
 /* AFC0FF */
 .maxwidth100 {
@@ -32,11 +53,49 @@ h6 {
 }
 
 .normal-text {
-  font-family: var("--font-noto-sans"), Roboto, Hlevetica, Arial, sans-serif;
+  font-family: var("--font-noto-sans"), Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .bold-header {
-  font-weight: 700;
+  font-weight: 700 !important;
+}
+
+.forefront {
+  mask-image:linear-gradient(to bottom, transparent, black);
+  -webkit-mask-image:linear-gradient(to bottom, transparent, black)
+}
+
+.beams {
+  background-image: url('/beams.jpg');
+  background-size: 150rem;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul {
+  list-style-type: square;
+}
+
+  .bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+.mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
 }

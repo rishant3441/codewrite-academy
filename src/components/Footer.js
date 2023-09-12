@@ -21,7 +21,7 @@ function Footer()
                     <a href='' className='me-4 text-reset'>
                         <MDBIcon fab icon="linkedin" />
                     </a>
-                    <a href='' className='me-4 text-reset'>
+                    <a href='https://github.com/rishant3441' target="_blank" className='me-4 text-reset'>
                         <MDBIcon fab icon="github" />
                     </a>
                     </div>
@@ -35,7 +35,7 @@ function Footer()
                             CodeWrite Academy
                         </h6>
                         <p>
-                            Striving to provide free, quality eductation for the the next generation on the internet.
+                            Striving to provide free, quality education for the the next generation on the internet.
                         </p>
                         </MDBCol>
 
@@ -83,8 +83,8 @@ function Footer()
 
                 <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                     © 2023 Copyright: &nbsp; 
-                    <a className='text-reset fw-bold' href='https://codewriteacademy.com'>
-                    CodeWriteAcademy.com
+                    <a className='text-reset fw-bold' href='https://codewriteacademy.org'>
+                    CodeWriteAcademy.org
                     </a>
                     &nbsp;
                     Website created by Rishan Thangaraj

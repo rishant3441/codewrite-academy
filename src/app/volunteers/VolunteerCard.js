@@ -20,6 +20,8 @@ import {
     MDBModalFooter
 } from '@/lib/mdb-react-ui-kit';
 
+import Button from 'react-bootstrap/Button'
+
 import Image from 'next/image';
 
 const height_100 = {height: "100%"};
@@ -33,46 +35,49 @@ function VolunteerCard(props)
     const [basicModal, setBasicModal] = useState(false);
 
     const toggleShow = () => setBasicModal(!basicModal);
+    if (typeof window === "undefined") {
+return (<></>);
+}
 
     return (
-        <MDBCard className="h-90 hover-shadow position-relative">
-            <Image className="card-image-top" style={{...object_fit, ...height_100, ...width_auto}} src={props.imgsrc} position='top' />
+        <MDBCard className="h-full hover:shadow-md transition duration-300 position-relative rounded-md">
+            <Image className="card-image-top h-full w-auto object-cover rounded-t-md" src={props.imgsrc} position='top' />
             <MDBCardBody>
-                <MDBCardTitle class="text-center normal-text bold-header">{props.name}</MDBCardTitle>
-                <MDBCardText class="text-center normal-text">
+                <MDBCardTitle className="text-center normal-text bold-header">{props.name}</MDBCardTitle>
+                <MDBCardText className="text-center normal-text">
                     {props.description}
                 </MDBCardText>
                 <div className="text-center">
-                    <MDBBtn onClick={toggleShow} className="stretched-link">
+                    <Button onClick={toggleShow} className="">
                         <div className="normal-text">
                             View Bio
                         </div>
-                    </MDBBtn>
+                    </Button>
                 </div>
                 <MDBModal show={basicModal} setShow={setBasicModal} tabIndex='-1'>
                     <MDBModalDialog centered size="xl">
                         <MDBModalContent>
                             <MDBModalHeader>
-                                <MDBModalTitle className="">{props.name}'s Bio</MDBModalTitle>
+                                <MDBModalTitle className="font-bold">{props.name}'s Bio</MDBModalTitle>
                                 <MDBBtn className='btn-close' color='none' onClick={toggleShow}></MDBBtn>
                             </MDBModalHeader>
                             <MDBModalBody className="p-2">
                                 <MDBRow className="">
-                                    <MDBCol size='4' className="" style={{ maxHeight: "50vh" }}>
-                                        <Image src={props.imgsrc1} alt="Volunteer Card" style={{...height_100, ...width_auto}}></Image>
-                                    </MDBCol>
+                                    <div className="col-12 col-md-4" style={{ maxHeight: "50vh" }}>
+                                        <Image src={props.imgsrc1} alt="Volunteer Card" className="rounded object-cover w-auto h-full md:h-auto md:w-full mx-auto"></Image>
+                                    </div>
 
-                                    <MDBCol size='8' className="p-3 pe-5">
+                                    <div className="col-12 col-md-8 p-3 pe-5">
                                         <div class="d-flex volunteer">
                                                 {props.children}
                                         </div>
-                                    </MDBCol>
+                                    </div>
                                 </MDBRow>
                             </MDBModalBody>
                             <MDBModalFooter>
-                                <MDBBtn color='secondary' onClick={toggleShow}>
+                                <Button color='secondary' onClick={toggleShow}>
                                     Close
-                                </MDBBtn>
+                                </Button>
                             </MDBModalFooter>
                         </MDBModalContent>
                     </MDBModalDialog>

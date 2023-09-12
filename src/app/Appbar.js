@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import 'bootstrap/dist/css/bootstrap.css';
 import './Appbar.css'
 import '@/app/globals.css'
 import { Overpass_Mono } from 'next/font/google';
@@ -15,21 +14,21 @@ const overpass_mono = Overpass_Mono({ subsets: ['latin'] })
 function Appbar()
 {
     return (
-      <Navbar bg="dark" variant="dark" expand="lg">
-              <Navbar.Brand href="/" className="ps-0 pt-0 pe-0 pb-0">
+      <Navbar expand="lg" style={{ boxShadow: "none" }} className="bg-blue-50 w-full z-10">
+              <Navbar.Brand href="/" className="mr-0">
 
-              <img src="/Logo.png" width="95" height="95" alt="Logo"/>{' '}
+              <img src="/Logo.png" width="80" height="80" alt="Logo" className="inline-block align-top mr-2"/>
 
-              <div className="appbar float-right pt-4">
+              <div className="appbar inline-block m-0 text-lg lg:!text-3xl">
                 <div className={overpass_mono.className}>
                   CodeWrite Academy
                 </div>
               </div>
                 
               </Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto d-flex">
+              <Navbar.Toggle className="mr-3" aria-controls="basic-navbar-nav inline"/>
+              <Navbar.Collapse id="basic-navbar-nav" className="z-1 grow">
+                <Nav className="me-auto mx-4 md:mx-0">
                   <Nav.Link href="/">Home</Nav.Link>
                   <NavDropdown title="About Us" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/who-we-are">Who We Are</NavDropdown.Item>
@@ -37,6 +36,8 @@ function Appbar()
                       Our Volunteers
                     </NavDropdown.Item>
                   </NavDropdown>
+                  <Nav.Link href="/how-we-work">How We Work</Nav.Link>
+                  <Nav.Link href="/contact-us">Contact Us</Nav.Link>
                   <Nav.Link href="https://forms.gle/oBFrYXjVtM6ZTjL38" target="_blank" rel="noopener noreferrer">Start Learning</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
