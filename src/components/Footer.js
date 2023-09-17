@@ -71,10 +71,7 @@ function Footer()
                         </p>
                         <p>
                             <MDBIcon icon="envelope" className="me-3" />
-                            codewrite@gmail.com
-                        </p>
-                        <p>
-                            <MDBIcon icon="phone" className="me-3" /> +1 561-785-5895
+                            codewriteacademy@gmail.com
                         </p>
                         </MDBCol>
                     </MDBRow>
