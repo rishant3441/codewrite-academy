@@ -24,17 +24,17 @@ function HowWeWork()
                 <img className="w-full content-[url('/MobilePath.png')] lg:content-[url('/DesktopPath_new1.png')]" />
 
 
-                <p className="text-lg text-center">
+                <p className="text-2xl text-center mt-5">
                     Starting with Scratch, students learn the basics of programming with an interactive drag-and-drop programming language.
                 </p>
-                <p className="text-lg text-center">
+                <p className="text-2xl text-center">
                     Students then move onto Python, where students learn the basics of writing programs, as opposed to Scratch's drag-and-drop mechanics.
                 </p>
-                <p className="text-lg text-center">
+                <p className="text-2xl text-center">
                     Finally, students move onto Unity, where they get to create games in the popular game engine, paired with C#, a programming language developed by Microsoft.
                 </p>
             </div>
-            <MDBContainer className="flex flex-col justify-content-center pt-12 pb-32 mx-auto">
+            <MDBContainer className="flex flex-col justify-content-center pt-4 pb-32 mx-auto">
                 <h1 className="font-bold text-center">More languages Coming Soon</h1>
                 <p className="text-lg text-center text-xl pt-3">
                     Upcoming planned tracks include introductory C++, basic Web Development, and more! Stay tuned. 

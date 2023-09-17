@@ -32,10 +32,10 @@ function WhoWeAre()
             </header>
             <MDBContainer className="px-4 overflow-hidden mt-5" style={{ lineHeight: 2 }}>
                 <MDBRow className="gx-5 gy-5 pt-3">
-                    <MDBCol size='6' className="p-3">
+                    <div className="col-12 col-md-6 p-3">
                         <MDBRow className="mb-3">
                             <MDBCol>
-                                <h1 className="font-bold">
+                                <h1 className="text-center md:text-left font-bold">
                                     Welcome to <br></br> <span className="hover:text-blue-600">CodeWrite Academy</span>
                                 </h1>
                             </MDBCol>
@@ -50,11 +50,11 @@ function WhoWeAre()
                             </MDBCol>
                         </MDBRow>
 
-                    </MDBCol>
+                    </div>
 
-                    <MDBCol size='6' className="p-3">
+                    <div className="col-12 col-md-6 p-3">
                         <Image src="/StockPhoto_square.jpg" width="500" height="500" className="mx-auto"></Image>
-                    </MDBCol>
+                    </div>
                 </MDBRow>
             </MDBContainer>
         </div>
