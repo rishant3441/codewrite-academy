@@ -100,8 +100,8 @@ function Home() {
                     </div>
                     <div className="col-12 col-md-6 pb-0 m-0 d-flex justify-end pr-0 md:pr-5">
                                 <div className="pt-2 flex lg:justify-end me-5 lg:mr-5 w-full">
-                                    <Image src={rishan} className="rounded-lg align-middle me-3 w-1/2 xl:max-w-[18rem] lg:max-w-[14rem] object-contain h-auto justify-content-end flex"/>
-                                    <Image src={zoe} className="rounded-lg align-middle w-1/2 xl:max-w-[18rem] lg:max-w-[14rem] h-auto object-contain justify-content-end flex"/>
+                                    <Image alt="Rishan Thangaraj" src={rishan} className="rounded-lg align-middle me-3 w-1/2 xl:max-w-[18rem] lg:max-w-[14rem] object-contain h-auto justify-content-end flex"/>
+                                    <Image alt="Zoe Thevenot"     src={zoe} className="rounded-lg align-middle w-1/2 xl:max-w-[18rem] lg:max-w-[14rem] h-auto object-contain justify-content-end flex"/>
                                 </div>
                     </div>
                 </MDBRow>

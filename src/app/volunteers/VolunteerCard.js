@@ -41,7 +41,7 @@ return (<></>);
 
     return (
         <MDBCard className="h-full hover:shadow-md transition duration-300 position-relative rounded-md">
-            <Image className="card-image-top h-full w-auto object-cover rounded-t-md" src={props.imgsrc} position='top' />
+            <Image className="card-image-top h-full w-auto object-cover rounded-t-md" src={props.imgsrc} alt={props.name} position='top' />
             <MDBCardBody>
                 <MDBCardTitle className="text-center normal-text bold-header">{props.name}</MDBCardTitle>
                 <MDBCardText className="text-center normal-text">
@@ -64,7 +64,7 @@ return (<></>);
                             <MDBModalBody className="p-2">
                                 <MDBRow className="">
                                     <div className="col-12 col-md-4" style={{ maxHeight: "50vh" }}>
-                                        <Image src={props.imgsrc1} alt="Volunteer Card" className="rounded object-cover w-auto h-full md:h-auto md:w-full mx-auto"></Image>
+                                        <Image src={props.imgsrc1} alt={props.name} className="rounded object-cover w-auto h-full md:h-auto md:w-full mx-auto"></Image>
                                     </div>
 
                                     <div className="col-12 col-md-8 p-3 pe-5">
