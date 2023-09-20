@@ -42,12 +42,12 @@ function Footer()
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                         <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                         <p>
-                            <a href='#!' className='text-reset'>
+                            <a href='/who-we-are' className='text-reset'>
                                 About Us
                             </a>
                         </p>
                         <p>
-                            <a href='#!' className='text-reset'>
+                            <a href='https://forms.gle/oBFrYXjVtM6ZTjL38' className='text-reset'>
                                 Sign Up
                             </a>
                         </p>
@@ -57,7 +57,7 @@ function Footer()
                             </a>
                         </p>
                         <p>
-                            <a href='#!' className='text-reset'>
+                            <a href='/contact-us' className='text-reset'>
                                 Contact Us
                             </a>
                         </p>
