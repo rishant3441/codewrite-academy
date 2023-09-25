@@ -52,8 +52,8 @@ function Footer()
                             </a>
                         </p>
                         <p>
-                            <a href='#!' className='text-reset'>
-                                Volunteer
+                            <a href='/volunteers' className='text-reset'>
+                                Volunteers
                             </a>
                         </p>
                         <p>
