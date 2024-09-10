@@ -45,12 +45,11 @@ export default function RootLayout({ children }) {
       <head>
         <Favicon />
       </head>
-      {/*<body className={noto_sans.className}>
+      <body className={noto_sans.className}>
         <Appbar />
         {children}
         <Footer />
-  </body>*/}
-      <body><div><h1>Coming soon!</h1></div></body>
+      </body>
     </html>
   )
 }
