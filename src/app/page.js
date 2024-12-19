@@ -16,6 +16,8 @@ import scratchLogo from '../../public/ScratchLogo.png'
 import unityLogo from '../../public/UnityLogo.png'
 import zoe from '../../public/ZoeThevenot_square.jpg'
 import rishan from '../../public/RishanThangaraj_square.jpg'
+import front_page1 from '../../public/front_page1.jpg'
+import front_page2 from '../../public/front_page2.jpg'
 
 const width_50 = {width: "50%"};
 const width_30 = {width: "30%"};
@@ -32,7 +34,7 @@ function Home() {
         </div>
             <MDBContainer className="inset-0" >
 
-                <MDBContainer className="relative max-w-5xl mx-auto pt-8 sm:pt-28 lg:pt-32 mb-36 md:mb-64 lg:mb-0">
+                <MDBContainer className="relative max-w-5xl mx-auto pt-8 sm:pt-28 lg:pt-32 mb-48 md:mb-64 lg:mb-0">
                     <div>
                         <h1 className="text-3xl md:text-6xl text-center font-extrabold">Learning programming in a fun, free way.</h1>
                     </div>
@@ -85,6 +87,17 @@ function Home() {
                     </figcaption>
                 </figure>
 
+            </MDBContainer>
+
+            <MDBContainer className="maxwidth100 w-100 mb-96 lg:mb-8 md:mb-32 px-auto pt-5 md:!ps-5 pb-5 pe-0 background-hp" breakpoint='xxl' style={{maxHeight: "80vh"}}>
+                <MDBRow className="gap-9"> 
+                    <MDBCol size='md' className="justify-content-end flex">
+                        <Image alt="Putting together a small gamepad" src={front_page1} className="rounded-sm xl:max-w-[36rem] lg:max-w-[14rem] object-contain h-auto flex"/>
+                    </MDBCol>
+                    <MDBCol size='md' className="flex justify-content-start">
+                        <Image alt="Programming Games" src={front_page2} className="rounded-sm xl:max-w-[36rem] lg:max-w-[14rem] object-contain h-auto flex"/>
+                    </MDBCol>
+                </MDBRow>
             </MDBContainer>
 
             <MDBContainer className="maxwidth100 w-100 mb-80 lg:mb-8 md:mb-32 px-auto pt-5 md:!ps-5 pb-5 pe-0 background-hp" breakpoint='xxl' style={{maxHeight: "72vh"}}>
