@@ -10,6 +10,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import './globals.css'
 
 
+
 import Footer from '@/components/Footer'
 
 export const noto_sans = Noto_Sans({

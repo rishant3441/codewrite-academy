@@ -16,7 +16,7 @@
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
     "font-awesome": "^4.7.0",
-    "mdb-react-ui-kit": "^6.2.0",
+    "mdb-react-ui-kit": "^9.0.0",
     "next": "13.4.16",
     "react": "18.2.0",
     "react-bootstrap": "^2.8.0",

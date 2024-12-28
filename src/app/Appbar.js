@@ -37,6 +37,7 @@ function Appbar()
                     </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="/how-we-work">How We Work</Nav.Link>
+                  <Nav.Link href="/locations">Locations</Nav.Link>
                   <Nav.Link href="/contact-us">Contact Us</Nav.Link>
                   <Nav.Link href="https://forms.gle/oBFrYXjVtM6ZTjL38" target="_blank" rel="noopener noreferrer">Start Learning</Nav.Link>
                 </Nav>
