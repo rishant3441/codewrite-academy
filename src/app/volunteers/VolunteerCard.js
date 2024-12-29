@@ -36,8 +36,8 @@ function VolunteerCard(props)
 
     const toggleShow = () => setBasicModal(!basicModal);
     if (typeof window === "undefined") {
-return (<></>);
-}
+        return (<></>);
+    }
 
     return (
         <MDBCard className="h-full hover:shadow-md transition duration-300 position-relative rounded-md">
@@ -54,7 +54,7 @@ return (<></>);
                         </div>
                     </Button>
                 </div>
-                <MDBModal show={basicModal} setShow={setBasicModal} tabIndex='-1'>
+                <MDBModal open={basicModal} setOpen={setBasicModal} tabIndex='-1'>
                     <MDBModalDialog centered size="xl">
                         <MDBModalContent>
                             <MDBModalHeader>

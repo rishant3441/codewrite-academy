@@ -43,9 +43,9 @@ export default function Volunteers()
                                 <div className="col-12 col-md-6 ps-4">
                                     <h6 className="align-content-start bold-header">About Me</h6>
                                     <p>
-                                        I am the founder of CodeWrite Academy. Since I was 10, I&apos;ve taken a massive interest in programming but felt
-                                        that most teaching methods weren&apos;t the most interesting. Now at 16, I've decided to try to remedy
-                                        these problems and spread my love of programming to the next generation. I've known Zoe for 4 years now, and when
+                                        Hi, I&apos;m  Rishan, and I am the founder of CodeWrite Academy. Since I was 10, I&apos;ve taken a massive interest in programming but felt
+                                        that most teaching methods weren&apos;t the most interesting. Now at 17, I've decided to try to remedy
+                                        these problems and spread my love of programming to the next generation. I've known Zoe for 5 years now, and when
                                         I came up with this idea, I knew she was the perfect partner to bring my passion to life. On the side, I love playing video games,
                                         watching anime, and hanging out with my friends. I am currently a student of American Heritage Palm Beach.
                                     </p>
@@ -97,6 +97,10 @@ export default function Volunteers()
                                             </li>
                                             <li>
                                                 Class Award in a Computer Science class. 
+                                            </li>
+                                                Taking AP Computer Science Principles
+                                            <li>
+                                                Perfect Score on the PSAT
                                             </li>
                                         </ul>
                                         <Image src="/Logo.png" width="250" height="300" className="mx-auto"></Image>
