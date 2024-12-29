@@ -98,7 +98,9 @@ export default function Volunteers()
                                             <li>
                                                 Class Award in a Computer Science class. 
                                             </li>
+                                            <li>
                                                 Taking AP Computer Science Principles
+                                            </li>
                                             <li>
                                                 Perfect Score on the PSAT
                                             </li>
