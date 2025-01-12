@@ -18,7 +18,7 @@ import zoe from '../../public/ZoeThevenot_square.jpg'
 import rishan from '../../public/RishanThangaraj_square.jpg'
 import front_page1 from '../../public/front_page1.jpg'
 import front_page2 from '../../public/front_page2.jpg'
-import long_image from '../../public/long_image2.jpg'
+import long_image from '../../public/long_image3.jpg'
 
 const width_50 = {width: "50%"};
 const width_30 = {width: "30%"};
