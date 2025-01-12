@@ -12,7 +12,7 @@ import React from 'react';
 
 import Image from 'next/image';
 
-import pic from '../../../public/who-we-are-new.jpg'
+import pic from '../../../public/who-we-are-new3.jpg'
 
 function WhoWeAre()
 {
