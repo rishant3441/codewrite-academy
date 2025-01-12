@@ -18,6 +18,7 @@ import zoe from '../../public/ZoeThevenot_square.jpg'
 import rishan from '../../public/RishanThangaraj_square.jpg'
 import front_page1 from '../../public/front_page1.jpg'
 import front_page2 from '../../public/front_page2.jpg'
+import long_image from '../../public/long_image2.jpg'
 
 const width_50 = {width: "50%"};
 const width_30 = {width: "30%"};
@@ -100,7 +101,7 @@ function Home() {
                 </MDBRow>
             </MDBContainer>
 
-            <MDBContainer className="maxwidth100 w-100 mb-80 lg:mb-8 md:mb-32 px-auto pt-5 md:!ps-5 pb-5 pe-0 background-hp" breakpoint='xxl' style={{maxHeight: "72vh"}}>
+            <MDBContainer className="maxwidth100 w-100 mb-40 lg:mb-8 md:mb-32 px-auto pt-5 md:!ps-5 pb-5 pe-0 background-hp" breakpoint='xxl' style={{maxHeight: "72vh"}}>
                 <MDBRow className="w-screen">
                     <div className="col-12 col-md-6 p-3 md:p-5">
                         <h1 className="font-extrabold text-center md:!text-left">Meet the Team</h1>
@@ -118,6 +119,10 @@ function Home() {
                                 </div>
                     </div>
                 </MDBRow>
+            </MDBContainer>
+            
+            <MDBContainer className="w-11/12 flex h-auto justify-content-center max-w-screen-2xl">
+                    <Image src={long_image} alt="Group of kids at BGC Boca" className="d-block w-auto lg:w-3/4 px-2 pt-1 pb-10"/>
             </MDBContainer>
         </div>
 
