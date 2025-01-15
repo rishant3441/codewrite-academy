@@ -21,6 +21,9 @@ import zoe_and_kid from '../../../public/BGCDelray/zoe_and_kid.jpg'
 import zoe_working_on_building_gamepad from '../../../public/BGCDelray/zoe_working_on_building_gamepad.jpg'
 import zoe_working_on_game_2 from '../../../public/BGCDelray/zoe_working_on_game_2.jpg'
 import zoe_working_on_game from '../../../public/BGCDelray/zoe_working_on_game.jpg'
+import zoe_working_on_game_3 from '../../../public/BGCDelray/zoe_working_on_game3.jpg'
+import zoe_working_on_building_gamepad2 from '../../../public/BGCDelray/zoe_building_gamepad.jpg'
+import rishan_working_with_kids_on_game from '../../../public/BGCDelray/rishan_working_with_kids_on_game.jpg'
 
 // Boca Pictures
 import kids_working2 from '../../../public/BGCBoca/kids_working2.jpg'
@@ -106,6 +109,9 @@ export default function Locations()
                         <Image src={rishan_working_on_game} alt="Rishan working on game" className="d-block w-auto px-2"/>
                         <Image src={zoe_working_on_game} alt="Zoe working on game" className="d-block w-auto px-2"/>
                         <Image src={rishan_and_kid} alt="Rishan and Kid" className="d-block w-auto px-2"/>
+                        <Image src={zoe_working_on_building_gamepad2} alt="Another picture of Zoe and a kid making a gamepad" className="d-block w-auto px-2"/>
+                        <Image src={zoe_working_on_game_3} alt="Zoe working on a game again" className="d-block w-auto px-2"/>
+                        <Image src={rishan_working_with_kids_on_game} alt="Rishan and kids programming their games" className="d-block w-auto px-2"/>
                     </Carousel>
                 </MDBContainer>
                 <h1 className="pt-5 text-center text-blue-400"> Boys and Girls Club Boca Raton</h1>
