@@ -16,8 +16,8 @@ import scratchLogo from '../../public/ScratchLogo.png'
 import unityLogo from '../../public/UnityLogo.png'
 import zoe from '../../public/ZoeThevenot_square.jpg'
 import rishan from '../../public/RishanThangaraj_square.jpg'
-import front_page1 from '../../public/front_page1.jpg'
-import front_page2 from '../../public/front_page2.jpg'
+import front_page1 from '../../public/BGCDelray/zoe_working_on_building_gamepad.jpg'
+import front_page2 from '../../public/BGCDelray/rishan_and_kids_playing_game.jpg'
 import long_image from '../../public/long_image3.jpg'
 
 const width_50 = {width: "50%"};
