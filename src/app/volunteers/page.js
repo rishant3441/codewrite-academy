@@ -8,8 +8,8 @@ import {
 } from '@/lib/mdb-react-ui-kit';
 
 import rishanImg from '../../../public/RishanThangaraj.jpg'
-import zoeImg from '../../../public/ZoeThevenot.png'
-import zoeImgLarger from '../../../public/ZoeThevenot_new.jpg'
+import zoeImg from '../../../public/ZoeThevenot.jpg'
+import zoeImgLarger from '../../../public/ZoeThevenot.jpg'
 
 import Image from 'next/image'
 
