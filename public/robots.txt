@@ -3,5 +3,6 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
+Disallow: /site.webmanifest
 
 Sitemap: https://codewriteacademy.org/sitemap.xml
