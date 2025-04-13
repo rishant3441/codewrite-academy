@@ -4,6 +4,7 @@
 import './sass.scss'
 import { Noto_Sans } from 'next/font/google'
 import { Overpass_Mono } from 'next/font/google'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import Favicon from '../components/Favicon'
 import Appbar from './Appbar'
 import "@fortawesome/fontawesome-free/css/all.min.css"
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
         <Appbar />
         {children}
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   )
