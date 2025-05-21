@@ -1,27 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://codewriteacademy.org/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-05-21</lastmod>
   </url>
   <url>
     <loc>https://codewriteacademy.org/volunteers</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-05-21</lastmod>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/RishanThangaraj.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/ZoeThevenot.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://codewriteacademy.org/contact-us</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-05-21</lastmod>
   </url>
   <url>
     <loc>https://codewriteacademy.org/how-we-work</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-05-21</lastmod>
   </url>
   <url>
     <loc>https://codewriteacademy.org/who-we-are</loc>
-    <lastmod>2025-01-14</lastmod>
+    <lastmod>2025-05-21</lastmod>
   </url>
   <url>
     <loc>https://codewriteacademy.org/locations</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-05-21</lastmod>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCBoca/boy_playing_game.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCBoca/boys_playing_game.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCBoca/girls_playing_game.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCBoca/kids_working1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCBoca/kids_working2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCBoca/more_girls_playing_games.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCBoca/zoe_teaching_on_board.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/rishan_and_kid.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/rishan_and_kids_playing_game.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/rishan_working_on_game.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/rishan_working_with_kids_on_game.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/zoe_and_kid.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/zoe_building_gamepad.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/zoe_working_on_building_gamepad.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/zoe_working_on_game.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/zoe_working_on_game3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://codewriteacademy.org/BGCDelray/zoe_working_on_game_2.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>
