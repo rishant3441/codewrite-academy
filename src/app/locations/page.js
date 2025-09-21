@@ -34,6 +34,25 @@ import boys_playing_game from '../../../public/BGCBoca/boys_playing_game.jpg'
 import girls_playing_game from '../../../public/BGCBoca/girls_playing_game.jpg'
 import more_girls_playing_games from '../../../public/BGCBoca/more_girls_playing_games.jpg'
 
+// Greenacres Pictures
+import blue_shirt_coding from '../../../public/GALibrary/blue_shirt_coding.JPEG'
+import blue_shirt_making_bg from '../../../public/GALibrary/blue_shirt_making_bg.JPEG'
+import boy_coding_2 from '../../../public/GALibrary/boy_coding_2.JPEG'
+import boy_coding from '../../../public/GALibrary/boy_coding.JPEG'
+import brwl_kid_coding from '../../../public/GALibrary/brwl_kid_coding.JPEG'
+import girl_coding_2 from '../../../public/GALibrary/girl_coding_2.JPEG'
+import girl_coding from '../../../public/GALibrary/girl_coding.JPEG'
+import siblings_coding_2 from '../../../public/GALibrary/siblings_coding_2.JPEG'
+import siblings_coding from '../../../public/GALibrary/siblings_coding.JPEG'
+import siblings_coding_3 from '../../../public/GALibrary/siblings_coding_3.JPEG'
+import two_kids_coding from '../../../public/GALibrary/two_kids_coding.JPEG'
+import zoe_and_boy_coding_2 from '../../../public/GALibrary/zoe_and_boy_coding_2.JPEG'
+import zoe_and_boy_coding from '../../../public/GALibrary/zoe_and_boy_coding.JPEG'
+import zoe_and_brwl_kid_making_sprite from '../../../public/GALibrary/zoe_and_brwl_kid_making_sprite.JPEG'
+import zoe_and_girl_coding from '../../../public/GALibrary/zoe_and_girl_coding.JPEG'
+import zoe_and_redshirt_coding from '../../../public/GALibrary/zoe_and_redshirt_coding.JPEG'
+
+
 
 
 import Carousel from 'react-multi-carousel'
@@ -149,6 +168,53 @@ export default function Locations()
                         <Image src={boys_playing_game} alt="Boys plays game" className="d-block w-auto px-2"/>
                         <Image src={kids_working2} alt="Zoe teaching girl while others work" className="d-block w-auto px-2"/>
                         <Image src={more_girls_playing_games} alt="3 girls playing game" className="d-block w-auto px-2"/>
+                    </Carousel>
+                </MDBContainer>
+                <h1 className="pt-5 text-center text-blue-400"> Palm Beach County Library - Greenacres Branch</h1>
+                <MDBContainer className="w-11/12 flex h-auto justify-content-center max-w-screen-2xl">
+                    <Carousel
+                        additionalTransfrom={0}
+                        arrows
+                        autoPlaySpeed={3000}
+                        centerMode={false}
+                        containerClass="w-full"
+                        draggable
+                        focusOnSelect={false}
+                        infinite
+                        keyBoardControl
+                        minimumTouchDrag={80}
+                        pauseOnHover
+                        renderArrowsWhenDisabled={false}
+                        renderButtonGroupOutside={false}
+                        renderDotsOutside={false}
+                        responsive={responsive}
+                        rewind={false}
+                        rewindWithAnimation={false}
+                        rtl={false}
+                        shouldResetAutoplay
+                        showDots
+                        autoPlay={true}
+                        slidesToSlide={1}
+                        swipeable
+                        ssr={false}
+                        >
+                        <Image src={two_kids_coding} alt="Boy and girl coding" className="d-block w-auto px-2"/>
+                        <Image src={zoe_and_boy_coding} alt="Zoe teaching a boy how to code" className="d-block w-auto px-2"/>
+                        <Image src={girl_coding} alt="A girl coding" className="d-block w-auto px-2"/>
+                        <Image src={zoe_and_girl_coding} alt="Zoe teaching a girl how to code" className="d-block w-auto px-2"/>
+                        <Image src={girl_coding_2} alt="Girl making a sprite" className="d-block w-auto px-2"/>
+                        <Image src={zoe_and_brwl_kid_making_sprite} alt="Zoe and a kid making a sprite" className="d-block w-auto px-2"/>
+                        <Image src={siblings_coding} alt="Siblings coding together" className="d-block w-auto px-2"/>
+                        <Image src={zoe_and_redshirt_coding} alt="Zoe and a kid coding together" className="d-block w-auto px-2"/>
+                        <Image src={blue_shirt_coding} alt="A kid coding" className="d-block w-auto px-2"/>
+                        <Image src={zoe_and_boy_coding_2} alt="Zoe and a boy coding together" className="d-block w-auto px-2"/>
+                        <Image src={siblings_coding_2} alt="Siblings coding together" className="d-block w-auto px-2"/>
+                        <Image src={siblings_coding_3} alt="Siblings coding together" className="d-block w-auto px-2"/>
+                        <Image src={blue_shirt_making_bg} alt="A kid making a background" className="d-block w-auto px-2"/>
+                        <Image src={boy_coding} alt="A boy coding" className="d-block w-auto px-2"/>
+                        <Image src={boy_coding_2} alt="A boy coding" className="d-block w-auto px-2"/>
+                        <Image src={brwl_kid_coding} alt="A kid coding" className="d-block w-auto px-2"/>
+
                     </Carousel>
                 </MDBContainer>
             </div>
