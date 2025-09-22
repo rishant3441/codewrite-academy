@@ -51,6 +51,7 @@ import zoe_and_boy_coding from '../../../public/GALibrary/zoe_and_boy_coding.JPE
 import zoe_and_brwl_kid_making_sprite from '../../../public/GALibrary/zoe_and_brwl_kid_making_sprite.JPEG'
 import zoe_and_girl_coding from '../../../public/GALibrary/zoe_and_girl_coding.JPEG'
 import zoe_and_redshirt_coding from '../../../public/GALibrary/zoe_and_redshirt_coding.JPEG'
+import zoe_and_redshirt_coding_2 from '../../../public/GALibrary/zoe_and_redshirt_2.JPEG'
 
 
 
@@ -211,6 +212,7 @@ export default function Locations()
                         <Image src={siblings_coding_2} alt="Siblings coding together" className="d-block w-auto px-2"/>
                         <Image src={siblings_coding_3} alt="Siblings coding together" className="d-block w-auto px-2"/>
                         <Image src={blue_shirt_making_bg} alt="A kid making a background" className="d-block w-auto px-2"/>
+                        <Image src={zoe_and_redshirt_coding_2} alt="Zoe and a kid coding together" className="d-block w-auto px-2"/>
                         <Image src={boy_coding} alt="A boy coding" className="d-block w-auto px-2"/>
                         <Image src={boy_coding_2} alt="A boy coding" className="d-block w-auto px-2"/>
                         <Image src={brwl_kid_coding} alt="A kid coding" className="d-block w-auto px-2"/>
